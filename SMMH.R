@@ -4,6 +4,8 @@ library(dplyr)
 library(ggplot2)
 library(shinythemes)  # Load shinythemes library for Cerulean theme
 
+
+
 # Define UI for application with Cerulean theme
 ui <- fluidPage(
   
@@ -79,5 +81,5 @@ server <- function(input, output) {
   })
 }
 
-# Run the application
+# Run the application on web
 shinyApp(ui = ui, server = server)
